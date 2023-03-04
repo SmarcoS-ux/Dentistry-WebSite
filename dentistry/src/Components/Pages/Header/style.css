@@ -1,0 +1,44 @@
+/*Paleta de cores*/
+:root{
+    --Branco: #ffffff;
+}
+
+.div-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+.div-logo img{
+    padding-left: 100px;
+    padding-right: 5px;
+    width: 40px;
+}
+.div-logo h2{
+    color: var(--Branco);
+}
+.div-logo .links{
+    text-decoration: none;
+}
+
+
+.div-navegation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.div-navegation .links{
+    text-decoration: none;
+    color: var(--Branco);
+    margin: 0px 15px;
+    padding-bottom: 5px;
+}
+.div-navegation .links:hover{
+    border-bottom: 3px solid var(--Branco);
+    transition: 0.1s;
+}
+.div-navegation #link-contact{
+    margin-right: 100px;
+}
