@@ -1,0 +1,379 @@
+span{
+    font-weight: 500;
+}
+h1, h2, h3{
+    font-weight: 100;
+}
+
+@media screen and (min-width: 1024px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        background-color: rgb(0, 140, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        padding-top: 20px;
+    }
+    .top h2{
+        font-weight: 10;
+        color: rgb(255, 196, 0);
+    }
+    .top p{
+        color: #fff;
+    }
+
+    .top .especialidades{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .especialidades ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    .especialidades ul li{
+        margin: 18px 0;
+        color: #fff;
+        font-weight: bold;
+    }
+    .especialidades ul li:before{
+        content: '';
+        display: inline;
+        background: url("../../../../public/assets/dente2.png") no-repeat;
+        width: 25px;
+        height: 25px;
+        float: left;
+        margin-top: 2px;
+    }
+
+
+    .aparelhos-dentarios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aparelhos-dentarios #img-capa{
+        width: 800px;
+        height: 450px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px rgb(102, 102, 102);
+    }
+
+    .descr-aparelhos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .descr{
+        width: 400px;
+        height: 180px;
+        border-right: 1px solid rgb(156, 156, 156);
+        border-bottom: 1px solid rgb(156, 156, 156);
+        margin: 0 10px;
+        border-radius: 20px;
+    }
+
+
+    .comentarios-clientes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .comentarios{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .comentario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        padding: 0 10px;
+    }
+    .comentario img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .comentarios-clientes .links{
+        background-color: rgb(8, 180, 248);
+        text-decoration: none;
+        color: white;
+        padding: 5px 35px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+    .comentarios-clientes .links:hover{
+        background-color: rgb(14, 138, 255);
+        box-shadow: 2px 2px 10px rgb(150, 150, 150);
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        background-color: rgb(0, 140, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        padding: 20px 10px 0px 10px;
+        text-align: center;
+    }
+    .top h2{
+        font-weight: 10;
+        color: rgb(255, 196, 0);
+    }
+    .top p{
+        color: #fff;
+    }
+
+    .top .especialidades{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .especialidades ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    .especialidades ul li{
+        margin: 18px 0;
+        color: #fff;
+        font-weight: bold;
+    }
+    .especialidades ul li:before{
+        content: '';
+        display: inline;
+        background: url("../../../../public/assets/dente2.png") no-repeat;
+        width: 25px;
+        height: 25px;
+        float: left;
+        margin-top: 2px;
+    }
+
+
+    .aparelhos-dentarios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aparelhos-dentarios #img-capa{
+        width: 450px;
+        height: 350px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px rgb(102, 102, 102);
+    }
+
+    .descr-aparelhos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .descr{
+        width: 400px;
+        height: 180px;
+        border-right: 1px solid rgb(156, 156, 156);
+        border-bottom: 1px solid rgb(156, 156, 156);
+        margin: 10px 10px;
+        border-radius: 20px;
+    }
+
+
+    .comentarios-clientes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .comentarios{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .comentario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        border-bottom: 1px solid rgb(163, 163, 163);
+        margin: 0 5px;
+    }
+    .comentario img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 30px;
+    }
+
+    .comentarios-clientes .links{
+        background-color: rgb(8, 180, 248);
+        text-decoration: none;
+        color: white;
+        padding: 5px 35px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+    .comentarios-clientes .links:hover{
+        background-color: rgb(14, 138, 255);
+        box-shadow: 2px 2px 10px rgb(150, 150, 150);
+    }
+}
+
+@media screen and (max-width: 479px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top{
+        background-color: rgb(0, 140, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        padding: 20px 10px 0px 10px;
+        text-align: center;
+    }
+    .top h2{
+        font-weight: 10;
+        color: rgb(255, 196, 0);
+    }
+    .top p{
+        color: #fff;
+    }
+
+    .top .especialidades{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .especialidades ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+    }
+    .especialidades ul li{
+        margin: 18px 0;
+        color: #fff;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .especialidades ul li:before{
+        content: '';
+        display: inline;
+        background: url("../../../../public/assets/dente2.png") no-repeat;
+        width: 25px;
+        height: 25px;
+        float: left;
+        margin-top: 2px;
+    }
+
+
+    .aparelhos-dentarios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aparelhos-dentarios #img-capa{
+        width: 400px;
+        height: 300px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 10px rgb(102, 102, 102);
+    }
+
+    .descr-aparelhos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .descr{
+        width: 400px;
+        height: 180px;
+        border-right: 1px solid rgb(156, 156, 156);
+        border-bottom: 1px solid rgb(156, 156, 156);
+        margin: 10px 10px;
+        border-radius: 20px;
+    }
+
+
+    .comentarios-clientes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .comentarios{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .comentario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        border-bottom: 1px solid rgb(163, 163, 163);
+        margin: 0 5px;
+    }
+    .comentario img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 30px;
+    }
+
+    .comentarios-clientes .links{
+        background-color: rgb(8, 180, 248);
+        text-decoration: none;
+        color: white;
+        padding: 5px 35px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+    .comentarios-clientes .links:hover{
+        background-color: rgb(14, 138, 255);
+        box-shadow: 2px 2px 10px rgb(150, 150, 150);
+    }
+}

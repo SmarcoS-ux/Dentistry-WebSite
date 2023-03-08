@@ -12,11 +12,11 @@ const Cabecalho = () => {
                 <Link className='links' to='/'><h2>Dentes Saudáveis</h2></Link>
             </div>
             <div className="div-navegation"> 
-                <Link className="links" to=''>HOME</Link>
-                <Link id="link-contact" className="links" to=''>CONTATO</Link>
+                <Link className="links" to='/'>HOME</Link>
+                <Link id="link-contact" className="links" to='/contacts'>CONTATO</Link>
             </div>
         </Header>
     );
 }
 
-export default Cabecalho;
+export default Cabecalho; 
