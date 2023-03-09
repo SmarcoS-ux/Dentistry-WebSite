@@ -64,7 +64,7 @@ const Contacts = () => {
                                 <th>Horários</th>
                                 <th>Dias</th>
                             </tr>
-                            <tr>
+                            <tr> 
                                 <td>15:00h</td>
                                 <td>Sexta-Feira</td>
                             </tr>
